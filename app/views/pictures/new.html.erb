@@ -1,0 +1,24 @@
+<h2>Upload a picture</h2>
+
+  <%= form_with model: @picture, url: pictures_path do |form| %>
+
+    <div>
+      <%= form.label :title %>
+      <br>
+      <%= form.text_field :title %>
+    </div>
+
+    <div>
+      <%= form.label :caption %>
+      <br>
+      <%= form.text_field :caption %>
+    </div>
+
+    <div>
+      <%= form.label :image %>
+      <br>
+      <%= form.file_field :image %>
+    </div>
+
+    <%= form.submit %>
+  <% end %>
