@@ -1,8 +1,17 @@
 class PicturesController < ApplicationController
 
-  def create
+  def new
     @picture = Picture.new
+  end
+
+  def create
+    Picture.create(picture_params)
     redirect_to '/'
+  end
+
+  def index
+    @pictures = Picture.all
+    render :index
   end
 
   private
