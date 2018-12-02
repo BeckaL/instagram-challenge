@@ -21,7 +21,7 @@ describe 'deleting posts' do
     log_out
     sign_up_individual_user(@second_user_email)
     visit '/pictures'
-    expect(page).not_to have_link "test title"
+    expect(page).not_to have_link "Delete picture"
 
   end
 
