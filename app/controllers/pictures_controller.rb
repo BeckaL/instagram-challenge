@@ -6,7 +6,7 @@ class PicturesController < ApplicationController
 
   def create
     Picture.create(picture_params)
-    redirect_to '/'
+    redirect_to '/pictures'
   end
 
   def index
