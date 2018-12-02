@@ -5,4 +5,5 @@
   <%= p.title %>
   <%= p.caption %>
   <%= image_tag p.image, class: "image"%>
+  <%= link_to('Delete picture', picture_path(p.id), method: :delete) %>
 <% end %>

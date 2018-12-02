@@ -14,6 +14,12 @@ class PicturesController < ApplicationController
     render :index
   end
 
+  def destroy
+    picture = Picture.find(params[:id])
+    picture.destroy
+    redirect_to '/pictures'
+  end
+
   private
 
   def picture_params

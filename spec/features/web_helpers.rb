@@ -22,6 +22,15 @@ def log_out
   click_link 'Logout'
 end
 
+def picture_upload
+  visit '/'
+  click_link 'Post new picture'
+  fill_in :Title, with: 'test title'
+  fill_in :Caption, with: 'test caption'
+  attach_file(:Image, '/Users/rebeccalelew/Projects/instagram-challenge/spec/features/test_image.jpg')
+  click_button("Create Picture")
+end
+
 
 def credentials(correct = true)
   correct_creds = {email: "test@test.com", password: "123456"}
