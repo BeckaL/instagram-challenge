@@ -5,5 +5,7 @@
   <%= p.title %>
   <%= p.caption %>
   <%= image_tag p.image, class: "image"%>
-  <%= link_to('Delete picture', picture_path(p.id), method: :delete) %>
+  <% if p.user_id == current_user.id %>
+    <%= link_to('Delete picture', picture_path(p.id), method: :delete) %>
+  <% end %>
 <% end %>
