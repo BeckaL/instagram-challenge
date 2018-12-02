@@ -1,12 +1,12 @@
 example_id                                        | status  | run_time        |
 ------------------------------------------------- | ------- | --------------- |
-./spec/features/hello_world_spec.rb[1:1]          | passed  | 0.35786 seconds |
-./spec/features/upload_image_spec.rb[1:1]         | passed  | 0.50315 seconds |
-./spec/features/user_can_sign_up_spec.rb[1:1]     | passed  | 0.0523 seconds  |
-./spec/features/user_logs_in_and_out_spec.rb[1:1] | passed  | 0.04984 seconds |
-./spec/features/user_logs_in_and_out_spec.rb[1:2] | passed  | 0.10649 seconds |
-./spec/features/user_logs_in_and_out_spec.rb[1:3] | passed  | 0.11966 seconds |
+./spec/features/hello_world_spec.rb[1:1]          | passed  | 0.01118 seconds |
+./spec/features/upload_image_spec.rb[1:1]         | passed  | 0.42497 seconds |
+./spec/features/user_can_sign_up_spec.rb[1:1]     | passed  | 0.04095 seconds |
+./spec/features/user_logs_in_and_out_spec.rb[1:1] | passed  | 0.04207 seconds |
+./spec/features/user_logs_in_and_out_spec.rb[1:2] | passed  | 0.09759 seconds |
+./spec/features/user_logs_in_and_out_spec.rb[1:3] | passed  | 0.09381 seconds |
 ./spec/helpers/pages_helper_spec.rb[1:1]          | pending | 0.00001 seconds |
-./spec/helpers/pictures_helper_spec.rb[1:1]       | pending | 0.00001 seconds |
-./spec/models/picture_spec.rb[1:1]                | pending | 0.00005 seconds |
+./spec/helpers/pictures_helper_spec.rb[1:1]       | pending | 0.00002 seconds |
+./spec/models/picture_spec.rb[1:1]                | pending | 0.00003 seconds |
 ./spec/models/user_spec.rb[1:1]                   | pending | 0.00002 seconds |
