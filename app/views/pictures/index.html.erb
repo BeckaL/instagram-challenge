@@ -1,11 +1,17 @@
-<%= stylesheet_link_tag "index" %>
+<%= stylesheet_link_tag "index.css" %>
 
 <h1> Images </h1>
 <% @pictures.each do |p| %>
+  <p class = "title">
   <%= p.title %>
+  </p>
+  <p class = "caption">
   <%= p.caption %>
+  </p>
   <%= image_tag p.image, class: "image"%>
+  <p>
   <% if p.user_id == current_user.id %>
     <%= link_to('Delete picture', picture_path(p.id), method: :delete) %>
   <% end %>
+  </p>
 <% end %>
