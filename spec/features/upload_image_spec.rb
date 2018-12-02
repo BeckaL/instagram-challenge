@@ -8,4 +8,9 @@ describe 'upload picture' do
     expect(page).to have_content "test title"
     expect(page).to have_content "test caption"
   end
+
+  it 'cannot upload a picture if not logged in' do
+    visit('/pictures/new')
+    expect(page.current_path).to eq '/'
+  end
 end

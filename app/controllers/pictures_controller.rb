@@ -1,6 +1,7 @@
 class PicturesController < ApplicationController
 
   def new
+    redirect_to '/' unless current_user
     @picture = Picture.new
   end
 
