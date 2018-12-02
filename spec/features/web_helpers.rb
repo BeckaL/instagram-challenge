@@ -17,6 +17,16 @@ def log_in(correct_creds = true)
   click_button 'Log in'
 end
 
+def sign_up_individual_user(email)
+  creds = credentials
+
+  visit '/users/sign_up'
+  fill_in 'user[email]', with: email
+  fill_in 'user[password]', with: creds[:password]
+  fill_in 'user[password_confirmation]', with: creds[:password]
+  click_button 'Sign up'
+end
+
 def log_out
   visit '/'
   click_link 'Logout'

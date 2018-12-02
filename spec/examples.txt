@@ -1,13 +1,14 @@
 example_id                                         | status  | run_time        |
 -------------------------------------------------- | ------- | --------------- |
-./spec/features/hello_world_spec.rb[1:1]           | passed  | 0.00898 seconds |
-./spec/features/upload_image_spec.rb[1:1]          | passed  | 0.08015 seconds |
-./spec/features/user_can_delete_posts_spec.rb[1:1] | passed  | 0.33805 seconds |
-./spec/features/user_can_sign_up_spec.rb[1:1]      | passed  | 0.04772 seconds |
-./spec/features/user_logs_in_and_out_spec.rb[1:1]  | passed  | 0.04755 seconds |
-./spec/features/user_logs_in_and_out_spec.rb[1:2]  | passed  | 0.38044 seconds |
-./spec/features/user_logs_in_and_out_spec.rb[1:3]  | passed  | 0.07445 seconds |
+./spec/features/hello_world_spec.rb[1:1]           | passed  | 0.0104 seconds  |
+./spec/features/upload_image_spec.rb[1:1]          | passed  | 0.08942 seconds |
+./spec/features/user_can_delete_posts_spec.rb[1:1] | passed  | 0.15088 seconds |
+./spec/features/user_can_delete_posts_spec.rb[1:2] | passed  | 0.76013 seconds |
+./spec/features/user_can_sign_up_spec.rb[1:1]      | passed  | 0.03829 seconds |
+./spec/features/user_logs_in_and_out_spec.rb[1:1]  | passed  | 0.05789 seconds |
+./spec/features/user_logs_in_and_out_spec.rb[1:2]  | passed  | 0.10032 seconds |
+./spec/features/user_logs_in_and_out_spec.rb[1:3]  | passed  | 0.09991 seconds |
 ./spec/helpers/pages_helper_spec.rb[1:1]           | pending | 0.00001 seconds |
 ./spec/helpers/pictures_helper_spec.rb[1:1]        | pending | 0.00001 seconds |
-./spec/models/picture_spec.rb[1:1]                 | pending | 0.00002 seconds |
+./spec/models/picture_spec.rb[1:1]                 | pending | 0.00003 seconds |
 ./spec/models/user_spec.rb[1:1]                    | pending | 0.00002 seconds |
